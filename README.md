@@ -266,7 +266,7 @@ ProfessionalJK-Microsoft/
 
 ## 🔗 Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jawwad%20Kazi-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/jawwadkazi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jawwad%20Kazi-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/professionaljk/)
 [![GitHub](https://img.shields.io/badge/GitHub-ProfessionalJK-181717?style=flat&logo=github)](https://github.com/ProfessionalJK)
 
 ---
