@@ -1,281 +1,467 @@
-# 🚀 ProfessionalJK — Microsoft Senior Software Engineer Journey
+# Microsoft SDE-2 Preparation Journey — Jawwad Kazi
 
-<div align="center">
+> **Goal:** Prepare for and crack a Senior Software Engineer / SDE-2 / L62-level role at Microsoft India before December 2026.
 
-![Target Role](https://img.shields.io/badge/Target%20Role-Senior%20Software%20Engineer-0078d4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Team](https://img.shields.io/badge/Team-CoreAI%20%7C%20Responsible%20AI-00b4d8?style=for-the-badge&logo=azure-devops&logoColor=white)
-![Location](https://img.shields.io/badge/Location-Mumbai%2C%20India-ff6b6b?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-🔥%20In%20Progress-4ade80?style=for-the-badge)
-
-**A public, accountable, 12-month journey from IT Analyst → Microsoft Senior Software Engineer.**  
-*1 hour/day. Every day. No shortcuts.*
-
-</div>
+This repository tracks my structured 6-month preparation journey for Microsoft India Senior Software Engineer interviews. The focus is on **DSA, Java depth, backend engineering, system design, behavioural preparation, mock interviews, and consistent daily execution**.
 
 ---
 
 ## 👤 About Me
 
-| | |
-|---|---|
-| **Name** | Jawwad Kazi |
-| **Current Role** | IT Analyst @ TCS, Mumbai |
-| **Experience** | 5.8+ Years |
-| **Current Stack** | React, Angular, Java, Spring Boot, SQL, Azure Basics |
-| **Target Role** | Senior Software Engineer — Microsoft CoreAI / Responsible AI |
-| **Target Location** | Mumbai, India |
-| **Journey Start** | June 2026 |
-| **Target Application** | June 2027 |
+I am **Jawwad Kazi**, a Full Stack Developer with 6 years of experience at TCS.
+
+My current work includes:
+
+- Backend API development using **Java** and **Spring Boot**
+- Frontend development using **React** and **Angular**
+- Leading a small engineering team
+- Code reviews and mentoring
+- Client calls and requirement gathering
+- DevOps and cloud deployments
+- Working knowledge of **AWS** and **GitHub**
 
 ---
 
-## 📊 Progress Dashboard
+## 🎯 Target Role
 
-### Overall Journey — Phase 1 of 4
-
-```
-Phase 1 — Foundation Upgrade     ████░░░░░░░░░░░░░░░░  [Month 1 of 3]
-Phase 2 — Distributed Systems    ░░░░░░░░░░░░░░░░░░░░  [Locked]
-Phase 3 — AI Engineering         ░░░░░░░░░░░░░░░░░░░░  [Locked]
-Phase 4 — Interview Blitz        ░░░░░░░░░░░░░░░░░░░░  [Locked]
-```
-
-### Month 1 — Module Progress
-
-| Module | Topic | Status | Score |
-|--------|-------|--------|-------|
-| Module 1 | C# Foundations | 🔄 In Progress | — |
-| Module 2 | .NET Patterns | 🔒 Locked | — |
-| Module 3 | Azure & Cloud | 🔒 Locked | — |
-| Module 4 | DSA for Interviews | 🔒 Locked | — |
-| Module 5 | System Design | 🔒 Locked | — |
-
-> 📌 **Updated weekly every Sunday.** Follow this repo to track progress.
-
----
-
-## 🗺️ 12-Month Roadmap
-
-```
-PHASE 1 — Foundation Upgrade (Months 1–3)
-├── Month 1: C# · .NET 8 · Azure basics · DSA start · System design intro
-├── Month 2: Distributed systems · Azure Service Bus · Docker · AZ-204 exam
-└── Month 3: Resilience patterns · Observability · CI/CD · AZ-305 start
-
-PHASE 2 — Distributed Systems & Cloud-Native (Months 4–6)
-├── Month 4: Microservices · Event-driven architecture · Kafka/Service Bus
-├── Month 5: Performance optimization · Caching at scale · gRPC
-└── Month 6: Kubernetes basics · Azure AKS · Load testing
-
-PHASE 3 — AI Engineering Specialisation (Months 7–9)
-├── Month 7: LLM fundamentals · Azure OpenAI · Prompt engineering
-├── Month 8: Responsible AI · Content safety · RAI Toolbox
-└── Month 9: AI-native SDLC · Copilot-driven dev · ML basics
-
-PHASE 4 — Interview Blitz (Months 10–12)
-├── Month 10: Senior system design · LeetCode hard · Mock interviews
-├── Month 11: STAR behavioural bank · Resume polish · Microsoft network
-└── Month 12: Applications · Referrals · Final prep
+```text
+Company: Microsoft India
+Target Role: Senior Software Engineer / SDE-2 / L62-level
+Target Timeline: Before December 2026
+Interview Language: Java
+Preparation Duration: 6 months
+Daily Commitment: 1 focused hour per day
+Weekly Rhythm: 6 study days + Sunday review
 ```
 
 ---
 
-## 🛠️ Portfolio Project — ContentSafetyService
+## 🧭 Preparation Philosophy
 
-> **A production-grade AI content moderation API** — the core project built throughout Phase 1.  
-> Mirrors what Microsoft's CoreAI Responsible AI team actually ships.
+This repo follows a simple rule:
 
-### Architecture
-
-```
-Client Request
-      │
-      ▼
-[API Gateway / Rate Limiter]
-      │
-      ▼
-[ASP.NET Core Web API — C# .NET 8]
-      │           │
-      ▼           ▼
-[Azure AI    [Request
-Content      Validator]
-Safety API]      │
-      │           │
-      └─────┬─────┘
-            ▼
-    [Cosmos DB — Audit Log]
-            │
-            ▼
-    [Application Insights — Telemetry]
-            │
-            ▼
-    [Azure Monitor — Alerts & Dashboards]
+```text
+Consistency > Intensity
+Daily execution > Perfect planning
+Understanding patterns > Memorizing solutions
+Communication > Silent coding
 ```
 
-### Tech Stack
-![C#](https://img.shields.io/badge/C%23-.NET%208-512BD4?style=flat&logo=dotnet)
-![Azure](https://img.shields.io/badge/Azure-App%20Service-0078d4?style=flat&logo=microsoftazure)
-![AI](https://img.shields.io/badge/Azure%20AI-Content%20Safety-00b4d8?style=flat&logo=microsoftazure)
-![Tests](https://img.shields.io/badge/Tests-xUnit%20%2B%20Moq-4ade80?style=flat)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat&logo=githubactions)
-![Monitoring](https://img.shields.io/badge/Monitoring-Application%20Insights-0078d4?style=flat)
+Every problem should be solved with:
 
-### Features (built progressively)
-- [x] Domain model: ContentRequest / ContentResponse / SafetyLevel
-- [ ] DI-wired service layer with IContentAnalyzer interface
-- [ ] Global exception handling with ProblemDetails (RFC 7807)
-- [ ] Structured logging with Serilog + correlation IDs
-- [ ] Real Azure AI Content Safety API integration
-- [ ] Retry + circuit breaker with Polly
-- [ ] Rate limiting (ASP.NET Core 7+ built-in)
-- [ ] GitHub Actions CI/CD pipeline → Azure App Service
-- [ ] Azure Application Insights telemetry
-- [ ] Cosmos DB audit log for moderation decisions
-- [ ] Architecture decision records (ADRs)
-
-**Live API:** *(deploying end of Month 1)*
+1. Problem understanding
+2. Brute-force approach
+3. Optimized approach
+4. Java implementation
+5. Dry run
+6. Edge cases
+7. Time and space complexity
+8. Reflection and mistake tracking
 
 ---
 
-## 📚 Skills Being Built
+## 📚 Course Structure
 
-### Already Have ✅
-```
-Java · Spring Boot · React · Angular · SQL · Azure Basics · Python · REST APIs · Git
-```
+The preparation is divided into 6 major phases.
 
-### Building Now 🔄
-```
-C# · .NET 8 · ASP.NET Core · Azure (AZ-204) · Distributed Systems · System Design
-```
+### Phase 1 — DSA Foundations + Java Basics
 
-### Coming Next 📅
-```
-Golang · Kubernetes · Event-driven Architecture · LLMs · Responsible AI · gRPC
-```
+Focus areas:
 
----
+- Big-O
+- Arrays
+- Strings
+- Hashing
+- Two pointers
+- Sliding window
+- Core Java collections
 
-## 📅 Weekly Update Log
+### Phase 2 — Core DSA Patterns
 
-### Week 1 — [Month 1]
-> *Posted Sunday after completion*
+Focus areas:
 
-| Day | Topic | Status | Notes |
-|-----|-------|--------|-------|
-| Mon | C# Setup + syntax orientation | ⏳ | — |
-| Tue | OOP — interfaces, records, generics | ⏳ | — |
-| Wed | Async/await + LINQ | ⏳ | — |
-| Thu | Project: ContentSafetyService scaffold | ⏳ | — |
-| Fri | DSA: Contains Duplicate + Valid Anagram (C#) | ⏳ | — |
-| Sat | System design: RESHADED framework | ⏳ | — |
-| Sun | Week review + Module 1 quiz attempt | ⏳ | — |
+- Linked list
+- Stack
+- Queue
+- Recursion
+- Trees
+- Backtracking
+- Binary search
+- Heap
+- Intervals
 
-*More weeks added every Sunday.*
+### Phase 3 — Advanced DSA + Java Depth
 
----
+Focus areas:
 
-## 🧮 DSA Tracker
+- Graphs
+- Topological sort
+- Dynamic programming
+- JVM internals
+- Java concurrency
+- Java streams
 
-| # | Problem | Difficulty | Pattern | Time | Status |
-|---|---------|-----------|---------|------|--------|
-| 1 | Contains Duplicate | Easy | Hashing | — | ⏳ |
-| 2 | Valid Anagram | Easy | Hashing | — | ⏳ |
-| 3 | Two Sum | Easy | Hashing | — | ⏳ |
-| 4 | Best Time to Buy/Sell Stock | Easy | Sliding Window | — | ⏳ |
-| 5 | Valid Parentheses | Easy | Stack | — | ⏳ |
-| 6 | Binary Search | Easy | Binary Search | — | ⏳ |
-| 7 | Max Depth Binary Tree | Easy | DFS | — | ⏳ |
-| 8 | Invert Binary Tree | Easy | BFS | — | ⏳ |
+### Phase 4 — Backend Engineering + System Design
 
-*Target: 150 problems by Month 10. All solved in C#.*
+Focus areas:
 
----
+- Spring Boot API design
+- REST API best practices
+- Database indexing
+- Caching
+- Queues
+- Load balancing
+- Distributed systems basics
 
-## 📝 System Design Studies
+### Phase 5 — System Design Case Studies
 
-| Design | Status | Doc Link |
-|--------|--------|----------|
-| URL Shortener | ⏳ | — |
-| Content Safety Service (1M req/day) | ⏳ | — |
-| Rate Limiter | 🔒 | — |
-| Notification System | 🔒 | — |
-| Chat System | 🔒 | — |
+Systems to design:
 
----
+- Rate Limiter
+- URL Shortener
+- Notification Service
+- Chat Application
+- News Feed
 
-## 🏅 Certifications
+### Phase 6 — Behavioural + Resume + Mock Interviews
 
-| Cert | Target Date | Status |
-|------|------------|--------|
-| AZ-204 — Azure Developer Associate | Month 6 | 🔒 Studying |
-| AZ-305 — Azure Solutions Architect | Month 9 | 🔒 Not started |
-| AI-102 — Azure AI Engineer | Month 10 | 🔒 Not started |
+Focus areas:
 
----
-
-## 📖 Study Resources
-
-### Books
-- [ ] *Designing Data-Intensive Applications* — Martin Kleppmann
-- [ ] *System Design Interview Vol. 1 & 2* — Alex Xu
-- [ ] *Clean Architecture* — Robert C. Martin
-- [ ] *C# in Depth* — Jon Skeet (Microsoft MVP)
-
-### Courses
-- [x] Microsoft Learn — C# Foundations (in progress)
-- [ ] Microsoft Learn — AZ-204 Learning Path
-- [ ] fast.ai — Practical Deep Learning
-- [ ] NeetCode 150 — neetcode.io
-
-### Key Docs (Bookmarked)
-- [Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/)
-- [ASP.NET Core Docs](https://learn.microsoft.com/en-us/aspnet/core/)
-- [Responsible AI Toolbox](https://responsibleaitoolbox.ai/)
-- [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/)
+- STAR stories
+- Microsoft values alignment
+- Resume rewrite
+- LinkedIn optimization
+- Mock coding interviews
+- Mock system design interviews
+- Final full-loop simulation
 
 ---
 
-## 🗂️ Repository Structure
+## 🗂 Repository Structure
 
-```
-ProfessionalJK-Microsoft/
-├── 📁 content-safety-service/     ← Portfolio project (C# ASP.NET Core)
-│   ├── src/
-│   ├── tests/
-│   └── .github/workflows/
-├── 📁 dsa/                        ← LeetCode solutions in C#
-│   ├── arrays-hashing/
+```text
+microsoft-sde2-prep/
+├── README.md
+├── dsa/
+│   ├── arrays/
+│   ├── strings/
+│   ├── hashing/
 │   ├── two-pointers/
 │   ├── sliding-window/
+│   ├── linked-list/
+│   ├── stack-queue/
 │   ├── trees/
-│   └── dynamic-programming/
-├── 📁 system-design/              ← Architecture docs & diagrams
+│   ├── backtracking/
+│   ├── binary-search/
+│   ├── heap/
+│   ├── intervals/
+│   ├── graphs/
+│   ├── dynamic-programming/
+│   └── revision/
+├── java-core/
+│   ├── collections/
+│   ├── concurrency/
+│   ├── streams/
+│   └── jvm/
+├── springboot-labs/
+│   ├── task-api/
+│   └── url-shortener/
+├── system-design/
+│   ├── rate-limiter.md
 │   ├── url-shortener.md
-│   ├── content-safety-service.md
-│   └── templates/
-├── 📁 azure-studies/              ← AZ-204 notes & labs
-├── 📁 reflections/                ← Weekly study logs
-│   ├── week-01.md
-│   └── ...
-├── 📁 resume/                     ← Resume versions (PDF)
-└── README.md
+│   ├── notification-service.md
+│   ├── chat-application.md
+│   └── news-feed.md
+├── star-stories/
+├── mocks/
+├── weekly-reflections/
+└── resources/
 ```
 
 ---
 
-## 🔗 Connect
+## ✅ DSA Problem Workflow
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jawwad%20Kazi-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/professionaljk/)
-[![GitHub](https://img.shields.io/badge/GitHub-ProfessionalJK-181717?style=flat&logo=github)](https://github.com/ProfessionalJK)
+For every DSA problem, I will follow this format:
+
+```markdown
+# Problem Name
+
+## Link
+
+## Problem Restatement
+
+## Brute Force Approach
+
+## Optimized Approach
+
+## Java Solution
+
+## Dry Run
+
+## Edge Cases
+
+## Time Complexity
+
+## Space Complexity
+
+## Mistakes
+
+## Learning
+```
 
 ---
 
-<div align="center">
+## 🧠 Mistake Categories
 
-*"I can learn anything and can do anything."*  
-**— Jawwad Kazi, June 2026**
+I will classify mistakes using these categories:
 
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=ProfessionalJK.Microsoft-SSE-Journey)
+```text
+Pattern Miss        - Could not identify the right pattern
+Edge Case Miss      - Missed boundary cases
+Complexity Miss     - Used inefficient approach
+Code Bug            - Implementation error
+Dry Run Failure     - Could not trace logic correctly
+Java API Gap        - Forgot Java syntax/library usage
+Communication Gap   - Could not explain clearly
+Time Pressure       - Solved too slowly
+```
 
-</div>
+---
+
+## 🧪 Daily Session Template
+
+Each day follows this 60-minute structure:
+
+```text
+10 min  - Review previous learning
+15 min  - Learn concept
+30 min  - Solve / implement
+5 min   - Reflection and tracking
+```
+
+For DSA sessions:
+
+```text
+1. Read problem
+2. Restate problem
+3. Think brute force
+4. Optimize
+5. Code in Java
+6. Dry run
+7. Test edge cases
+8. Record reflection
+```
+
+---
+
+## 📆 Weekly Review Template
+
+Every Sunday is review-only.
+
+```markdown
+# Weekly Reflection — Week X
+
+## Sessions Completed
+__/6
+
+## Problems Solved
+
+## Problems Revisited
+
+## Weakest Pattern
+
+## Strongest Pattern
+
+## Biggest Mistake
+
+## One Improvement
+
+## Carry Forward
+
+## Confidence Score
+__/5
+```
+
+---
+
+## 🏗 System Design Template
+
+Each system design document will follow this structure:
+
+```markdown
+# System Design: System Name
+
+## 1. Problem Statement
+
+## 2. Functional Requirements
+
+## 3. Non-Functional Requirements
+
+## 4. Scale Assumptions
+
+## 5. APIs
+
+## 6. Data Model
+
+## 7. High-Level Architecture
+
+## 8. Deep Dive
+
+## 9. Bottlenecks
+
+## 10. Trade-offs
+
+## 11. Failure Handling
+
+## 12. Monitoring
+
+## 13. Final Interview Summary
+```
+
+---
+
+## 💬 STAR Story Template
+
+Behavioural stories will follow the STAR format:
+
+```markdown
+# STAR Story: Title
+
+## Microsoft Value
+Growth Mindset / Customer Obsessed / One Microsoft / Diversity and Inclusion
+
+## Situation
+
+## Task
+
+## Action
+
+## Result
+
+## Metrics
+
+## What I Learned
+
+## 90-Second Version
+
+## Follow-up Questions
+```
+
+---
+
+## 🎤 Mock Interview Scorecard
+
+```markdown
+# Mock Interview Scorecard
+
+## Round Type
+Coding / System Design / Behavioural / Full Loop
+
+## Prompt
+
+## Scores
+
+- Problem Understanding: __/5
+- Clarifying Questions: __/5
+- Approach Explanation: __/5
+- Correctness: __/5
+- Optimization: __/5
+- Edge Cases: __/5
+- Code Quality: __/5
+- Communication: __/5
+- Confidence: __/5
+- Recovery When Stuck: __/5
+
+## Overall Score
+__/5
+
+## What Went Well
+
+## What Went Poorly
+
+## Action Items
+```
+
+---
+
+## 📊 Progress Targets
+
+By the end of the 6-month preparation:
+
+```text
+DSA problems attempted: 200
+P0 problems mastered: 100%
+Blind re-solves completed: 80+
+System design case studies: 5
+Hands-on backend/system labs: 5+
+STAR stories: 10
+Mock interviews: 6+
+Final full-loop mock: 1
+```
+
+---
+
+## 🧩 Key Hands-on Assignments
+
+Planned hands-on labs:
+
+1. Array Pattern Utility Library
+2. Log Analyzer using HashMap and Sliding Window
+3. Java Internals Lab
+4. In-Memory LRU Cache
+5. File System Tree Explorer
+6. Meeting Room Scheduler
+7. Service Dependency Resolver
+8. Text Similarity Engine
+9. Production-Ready Task Management API
+10. Mini URL Shortener Backend
+
+---
+
+## 🔥 Definition of Done
+
+A session is complete only if:
+
+- I completed the assigned task
+- I attempted the problem myself before looking at hints
+- I wrote the time and space complexity
+- I tested edge cases
+- I recorded mistakes or learnings
+- I updated my progress tracker
+
+---
+
+## 🛠 Tools Used
+
+- Java
+- Spring Boot
+- LeetCode
+- GitHub
+- Notion / local tracker
+- Free system design resources
+- Mock interview platforms
+
+---
+
+## 🚀 Starting Point
+
+```text
+Day 1:
+Big-O basics + Two Sum in Java
+```
+
+This repository is not just for storing code.  
+It is a record of disciplined preparation toward becoming Microsoft SDE-2 ready.
+
+---
+
+## Final Reminder
+
+```text
+Show up daily.
+Solve honestly.
+Reflect clearly.
+Improve continuously.
+Progress and conquer.
+```

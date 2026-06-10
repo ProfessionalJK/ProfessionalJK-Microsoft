@@ -425,5 +425,11 @@ FodyWeavers.xsd
 *.cab
 *.msi
 *.msix
-*.msm
+*.msms
 *.msp
+
+#JAVA
+*.class
+
+#Intellij
+.idea
