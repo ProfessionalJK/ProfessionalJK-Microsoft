@@ -431,5 +431,5 @@ FodyWeavers.xsd
 #JAVA
 *.class
 
-#Intellij
+
 .idea
